@@ -32,7 +32,7 @@ import org.tribot.api.util.abc.*;
 public class Chickenz extends Script implements Painting{
 	
 	private final int[] chickenLoot = new int[]{526, 314};
-    private final ABCUtil abc = new ABCUtil();
+	private final ABCUtil abc = new ABCUtil();
 	private RSTile last_chicken_tile;
 
 	private final long startTime = System.currentTimeMillis();
@@ -164,7 +164,7 @@ public class Chickenz extends Script implements Painting{
 		Random rand = new Random();
 		int randTile1 = rand.nextInt(9);
 		int randTile2 = rand.nextInt(11);
-	    RSTile OUTSIDE_GATE_TILE = new RSTile(3230+randTile1, 3287 + randTile2);
+		RSTile OUTSIDE_GATE_TILE = new RSTile(3230+randTile1, 3287 + randTile2);
 
 		if(!WebWalking.walkTo(OUTSIDE_GATE_TILE)){
 			System.out.println("Going to chicken coop");
@@ -259,9 +259,9 @@ public class Chickenz extends Script implements Painting{
 	
 	private void pickUpLoot(){
 		System.out.println("picking up loot.");
-        RSGroundItem[] chickenDrops = GroundItems.findNearest(chickenLoot);
-        Random rand = new Random();
-        if(chickenDrops.length > 0){
+		RSGroundItem[] chickenDrops = GroundItems.findNearest(chickenLoot);
+		Random rand = new Random();
+		if(chickenDrops.length > 0){
         	double missclick = rand.nextDouble();
         	if(missclick <= .133){
         		System.out.println("Missclicked");
