@@ -12,7 +12,7 @@ Currently only have one script available, the Pro chickenz, the best chicken sla
 ### Installing
 
 * Download java file of desired script
-* Compile the .java file downloaded using the javs IDE of your choice
+* Compile the .java file downloaded using the java IDE of your choice
 * Go to workspace, or wherever your IDE stores your java projects, then click on the folder where you inserted the downloaded java file into
 * Go to bin and copy all the java class files
 * Launch tri bot and go to File -> View Local Scripts Folder -> paste copied java classes
