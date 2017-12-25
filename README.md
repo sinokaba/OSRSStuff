@@ -12,6 +12,8 @@ Currently only have one script available, the Pro chickenz, the best chicken sla
 ### Installing
 
 * Download java file of desired script
+* Create a new Java Project using your IDE and add the .java file downloaded.
+* Insert the path to the tribot.jar file to the newly created Java Project as an external jar.
 * Compile the .java file downloaded using the java IDE of your choice
 * Go to workspace, or wherever your IDE stores your java projects, then click on the folder where you inserted the downloaded java file into
 * Go to bin and copy all the java class files
